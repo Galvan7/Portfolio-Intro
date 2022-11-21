@@ -1,0 +1,839 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    /* background-color: red; */
+    background-color: rgb(222, 197, 197);
+    /* width: 350px; */
+    height: 100vh;
+    /*100 vetical height ie full screen*/
+    font-family: 'Lora', serif;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 35px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 28px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    /*vw is visible width*/
+}
+
+.container {
+    display: flex;
+}
+
+.info {
+    /* background-color: rgb(220, 40, 214); */
+    height: 75vh;
+    width: 80vw;
+    margin: 117px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.infopic img {
+    width: 354px;
+    height: 75vh;
+    border-radius: 122px;
+}
+
+.infodata {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Comfortaa', cursive;
+}
+
+.hello {
+    font-size: 68px;
+
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 30px;
+}
+
+.moreabout {
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+    margin-top: 35px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 9px;
+    width: 9rem;
+    color: whitesmoke;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: dodgerblue;
+    background-color: whitesmoke;
+}
+
+
+
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 130px;
+    font-family: 'Lora', serif;
+    margin: 0 88px;
+}
+
+.social {
+    padding: 0 34px;
+    padding-top: 0px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    margin: 0 88px;
+    margin-top: 100px;
+}
+
+.contactform h1 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    /* text-align: center; */
+    padding: 12px 0;
+}
+
+.social h1 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    /* text-align: center; */
+    padding: 12px 0;
+}
+
+.smedia {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contactform form div {
+    padding: 3px 0px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 9px;
+}
+
+.contactform form div input {
+    width: 50vw;
+    border-radius: 7px;
+    margin: 3px 0 0 0;
+    padding: 5px;
+}
+
+#emailhelp {
+    font-size: 12px;
+    color: rgb(15, 11, 5);
+    margin: 0 35px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 2px o;
+}
+
+.contactform button {
+    margin-top: 9px;
+    width: 70px;
+    padding: 9px 10px;
+    /* padding-right: 11px; */
+    border-radius: 13px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: dodgerblue;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contactform button:hover {
+    color: dodgerblue;
+    background-color: whitesmoke;
+}
+
+.blogcon {
+    margin: 0 88px;
+}
+
+.blogitem {
+    margin: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.blogcon h1 {
+    margin-top: 23px;
+    margin-left: 20px;
+}
+
+.blogitem p {
+    font-family: 'Lora', serif;
+}
+
+.btn {
+    padding: 7px 10px;
+    border-radius: 17px;
+    color: whitesmoke;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: dodgerblue;
+    background-color: whitesmoke;
+}
+
+.abtme h1 {
+    margin-top: 23px;
+    margin-left: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.abtme p {
+    font-family: 'Lora', serif;
+    margin-top: 13px;
+    margin-left: 20px;
+    /* font-size: 1.3rem; */
+}
+
+.abtme h2 {
+    margin-top: 18px;
+    margin-left: 20px;
+    font-family: 'Lora', serif;
+}
+
+.skillcon {
+    padding: 15px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+
+.skill {
+    margin-left: 188px;
+    height: 12px;
+    background-color: blueviolet;
+    /* margin-right: 200px; */
+}
+
+.hun {
+    position: absolute;
+    width: 60vw;
+}
+
+.fif {
+    position: absolute;
+    width: 30vw;
+}
+
+.tf {
+    position: absolute;
+    width: 15vw;
+}
+
+.sf {
+    position: absolute;
+    width: 45vw;
+}
+
+.skillitem {
+    display: flex;
+    margin-top: 7px;
+    align-items: center;
+}
+
+.prjabtme {
+    margin: 0 88px;
+}
+
+.prj {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 2px 30px;
+    margin-bottom: 60px;
+}
+
+.soloprj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 19px;
+    background-color: rgb(218, 228, 251);
+    height: auto;
+    border-radius: 12px;
+}
+
+.soloprj h1 {
+    font-family: 'Lora', serif;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.soloprj p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.soloprj h2 {
+    font-family: 'Lora', serif;
+    margin-top: 27px;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+.soloprj button {
+    margin: 0 0;
+    width: 120px;
+    margin-bottom: 12px;
+}
+
+.hamburger {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 6px;
+}
+
+.cross {
+    margin-left: 185px;
+}
+
+.nsb {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+/* media queries */
+@media (max-width: 776px) {
+
+    .buttons button {
+        padding: 5px 9px;
+        border-radius: 9px;
+        color: whitesmoke;
+        background-color: dodgerblue;
+        font-weight: bold;
+        font-size: 12px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    .main {
+        padding: 3px;
+    }
+
+    .hello {
+        font-size: 27px;
+    }
+
+    .name {
+        font-size: 27px;
+        font-weight: bold;
+    }
+
+    .about {
+        font-size: 23px;
+    }
+
+    .moreabout {
+        margin-top: 30px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    } */
+    .infopic img {
+        width: 150px;
+        height: auto;
+        border-radius: 122px;
+    }
+
+    .contactform form div input {
+        width: 50vw;
+        border-radius: 7px;
+        margin: 3px 0 0 0;
+        padding: 5px;
+    }
+
+    .contactform h1 {
+        font-family: 'Comfortaa', cursive;
+        font-weight: bold;
+        /* text-align: center; */
+        padding: 12px 0;
+        font-size: 15px;
+    }
+
+    .social h1 {
+        font-family: 'Comfortaa', cursive;
+        font-weight: bold;
+        /* text-align: center; */
+        padding: 12px 0;
+        font-size: 15px;
+    }
+
+    .contactform form div {
+        padding: 3px 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 9px;
+    }
+
+    .form-check-label {
+        font-size: 17px;
+    }
+
+    .blogcon {
+        margin: 0 0px;
+        margin-top: 60px;
+    }
+
+    .blogitem {
+        margin: 10px;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .blogcon h1 {
+        margin-top: 23px;
+        margin-left: 10px;
+    }
+
+    .blogitem p {
+        font-family: 'Lora', serif;
+    }
+
+    .contactform {
+        padding: 0 14px;
+        padding-top: 50px;
+        font-family: 'Lora', serif;
+        margin: 10px 18px;
+    }
+
+
+
+    .prjabtme {
+        margin: 0 0;
+        margin-top: 60px;
+    }
+
+    .prj {
+        /*starting to take a punt*/
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 2px 15px;
+        margin-bottom: 60px;
+    }
+
+    .abtme h1 {
+        margin-top: 23px;
+        margin-left: 20px;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .abtme p {
+        font-family: 'Lora', serif;
+        margin-top: 13px;
+        margin-left: 20px;
+    }
+
+    .abtme h2 {
+        margin-top: 18px;
+        margin-left: 20px;
+        font-family: 'Lora', serif;
+    }
+
+    .skillcon {
+        padding: 15px;
+        font-family: 'Lora', serif;
+        font-size: 20px;
+    }
+
+    .skill {
+        /* margin-left: 188px; */
+        height: 12px;
+        background-color: blueviolet;
+        /* margin-right: 30px; */
+    }
+
+    .soloprj {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+        margin-top: 19px;
+        background-color: rgb(218, 228, 251);
+        height: auto;
+        border-radius: 12px;
+    }
+
+    .soloprj h1 {
+        font-family: 'Lora', serif;
+        margin-top: 2px;
+        margin-bottom: 15px;
+        font-style: italic;
+        font-size: 1.5rem;
+    }
+
+    .soloprj p {
+        font-family: 'Comfortaa', cursive;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .soloprj h2 {
+        font-family: 'Lora', serif;
+        margin-top: 15px;
+        font-size: 1.3rem;
+        font-style: italic;
+    }
+
+    .soloprj button {
+        margin: 0 0;
+        width: 120px;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 460px) {
+
+    .buttons button {
+        padding: 5px 9px;
+        border-radius: 9px;
+        color: whitesmoke;
+        background-color: dodgerblue;
+        font-weight: bold;
+        font-size: 12px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    .main {
+        padding: 3px;
+    }
+
+    .hello {
+        font-size: 27px;
+    }
+
+    .name {
+        font-size: 27px;
+        font-weight: bold;
+    }
+
+    .about {
+        font-size: 23px;
+    }
+
+    .moreabout {
+        margin-top: 30px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    } */
+    .infopic img {
+        width: 150px;
+        height: auto;
+        border-radius: 122px;
+    }
+
+    .contactform form div input {
+        width: 50vw;
+        border-radius: 7px;
+        margin: 3px 0 0 0;
+        padding: 5px;
+    }
+
+    .contactform h1 {
+        font-family: 'Comfortaa', cursive;
+        font-weight: bold;
+        /* text-align: center; */
+        padding: 0px 0;
+        font-size: 13px;
+    }
+
+    .contactform form div {
+        padding: 3px 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 9px;
+    }
+
+    .contactform form div input {
+        width: 50vw;
+        border-radius: 7px;
+        margin: 3px 0 0 0;
+        padding: 5px;
+    }
+
+    .form-check-label {
+        font-size: 13px;
+    }
+
+    .blogcon h1 {
+        font-size: 29px;
+    }
+
+    .contactform {
+        padding: 0 6px;
+        padding-top: 25px;
+        font-family: 'Lora', serif;
+        margin: 60px 18px;
+    }
+
+
+    .prj {
+        /*starting to take a punt*/
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 2px 15px;
+        margin-bottom: 60px;
+    }
+
+    .abtme h1 {
+        margin-top: 23px;
+        margin-left: 20px;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .abtme p {
+        font-family: 'Lora', serif;
+        margin-top: 13px;
+        margin-left: 20px;
+    }
+
+    .abtme h2 {
+        margin-top: 18px;
+        margin-left: 20px;
+        font-family: 'Lora', serif;
+    }
+
+    .skillcon {
+        padding: 15px;
+        font-family: 'Lora', serif;
+        font-size: 20px;
+    }
+
+    .skill {
+        /* margin-left: 188px; */
+        height: 12px;
+        background-color: blueviolet;
+        /* margin-right: 180px; */
+    }
+
+    .soloprj {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+        margin-top: 19px;
+        background-color: rgb(218, 228, 251);
+        height: auto;
+        border-radius: 12px;
+    }
+
+    .soloprj h1 {
+        font-family: 'Lora', serif;
+        margin-top: 2px;
+        margin-bottom: 15px;
+        font-style: italic;
+        font-size: 1.5rem;
+    }
+
+    .soloprj p {
+        font-family: 'Comfortaa', cursive;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .soloprj h2 {
+        font-family: 'Lora', serif;
+        margin-top: 15px;
+        font-size: 1.3rem;
+        font-style: italic;
+    }
+
+    .soloprj button {
+        margin: 0 0;
+        width: 120px;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 525px) {
+    .skill {
+        height: 9px;
+    }
+
+    .hun {
+        position: absolute;
+        width: 45vw;
+    }
+
+    .fif {
+        position: absolute;
+        width: 23vw;
+    }
+
+    .tf {
+        position: absolute;
+        width: 12vw;
+    }
+
+    .sf {
+        position: absolute;
+        width: 34vw;
+    }
+}
+
+@media (max-width: 375px) {
+    .skill {
+        height: 8px;
+    }
+
+    .hun {
+        position: absolute;
+        width: 35vw;
+    }
+
+    .fif {
+        position: absolute;
+        width: 17vw;
+    }
+
+    .tf {
+        position: absolute;
+        width: 9vw;
+    }
+
+    .sf {
+        position: absolute;
+        width: 28vw;
+    }
+}
+
+/* @media (max-width: 970px){
+    .prj{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 1rem;
+        margin: 2px 15px;
+        margin-bottom: 60px;
+    }
+    .abtme h1{
+        margin-top: 23px;
+        margin-left: 20px;
+        font-family:  'Comfortaa', cursive ;
+    }
+    .abtme p{
+        font-family: 'Lora', serif;
+        margin-top: 13px;
+        margin-left: 20px;
+    }
+    .abtme h2{
+        margin-top: 18px;
+        margin-left: 20px;
+        font-family:'Lora', serif ;
+    }
+    .skillcon{
+        padding: 15px;
+        font-family:'Lora', serif ;
+        font-size: 20px;
+    }
+    .skill{
+        margin-left: 3px;
+        height: 12px;
+        background-color: blueviolet;
+    }
+    .soloprj{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+        margin-top: 19px;
+        background-color: rgb(218, 228, 251);
+        height: auto;
+        border-radius: 12px; 
+    }
+    .soloprj h1{
+        font-family:'Lora', serif;
+        margin-top: 2px;
+        margin-bottom: 15px;
+        font-style: italic;
+        font-size: 1.5rem;
+    }
+    .soloprj p{
+        font-family:'Comfortaa', cursive;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    .soloprj h2{
+        font-family:'Lora', serif;
+        margin-top: 15px;
+        font-size: 1.3rem;
+        font-style: italic;
+    }
+    .soloprj button{
+        margin: 0 0;
+        width: 120px;
+        margin-bottom: 16px;
+    }
+} */
